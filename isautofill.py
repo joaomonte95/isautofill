@@ -72,7 +72,6 @@ class Isautofill:
             print(f'{li} || Main roles (role/games played): {mainrole} || Winrate: {winrate}')
 
 # example
-
-riot = Isautofill("dev key goes here")
-
-riot.is_all_autofill('Summoner's name goes here')
+if __name__='__main__':
+    riot = Isautofill("dev key goes here")
+    riot.is_all_autofill('Summoner's name goes here')
